@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VITTORIS AI | Enterprise AI Client Acquisition & Autonomous Infrastructure</title>
+  <meta name="description" content="VITTORIS AI architects high-performance AI appointment setting, conversational voice agents, and custom enterprise AI systems on pure performance economics.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+
+  <!-- Google Fonts: Playfair Display, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- EmailJS Browser SDK CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+
+  <!-- ==================== SITE HEADER ==================== -->
+  <header class="site-header">
+    <div class="header-inner container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" aria-label="VITTORIS AI Home">
+        <span class="brand-mark">V</span>
+        <div class="brand-text">
+          <span class="brand-name">VITTORIS</span>
+          <span class="brand-sub">AI SYSTEMS</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="primary-nav" id="primaryNav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active">Overview</a></li>
+          <li><a href="services.html" class="nav-link">10 Enterprise Services</a></li>
+          <li><a href="#roi-calculator" class="nav-link">ROI Engine</a></li>
+          <li><a href="#framework" class="nav-link">Architecture</a></li>
+          <li><a href="contact.html" class="nav-link">Scoping</a></li>
+          <li><a href="admin.html" class="nav-link nav-link-admin">Executive Desk</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- 3-Way Theme Switcher -->
+        <div class="theme-toggle-cluster" role="group" aria-label="Theme Selection">
+          <button class="theme-btn active" data-set-theme="dark" title="Dark Obsidian Mode">
+            <i data-lucide="moon"></i>
+          </button>
+          <button class="theme-btn" data-set-theme="eye-care" title="Eye-Protection Amber Mode">
+            <i data-lucide="eye"></i>
+          </button>
+          <button class="theme-btn" data-set-theme="light" title="Light Alabaster Mode">
+            <i data-lucide="sun"></i>
+          </button>
+        </div>
+
+        <!-- Schedule Discovery CTA Trigger -->
+        <button class="btn btn-primary btn-sm" data-open-scheduler>
+          <span>Schedule 3 Slots</span>
+          <i data-lucide="calendar"></i>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation" aria-expanded="false">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>AUTONOMOUS COMMERCIAL ACQUISITION &amp; COGNITIVE INFRASTRUCTURE</span>
+      </div>
+
+      <h1 class="hero-title">
+        Architecting Enterprise Pipeline With <span class="text-gold-gradient">Precision AI Infrastructure</span>
+      </h1>
+
+      <p class="hero-description">
+        We replace legacy outbound friction, bloated agency retainers, and manual sales prospecting with autonomous AI setters, custom cognitive intelligence engines, and pure performance pay-per-appointment economics.
+      </p>
+
+      <div class="hero-cta-cluster">
+        <button class="btn btn-primary btn-lg" data-open-scheduler>
+          <span>Request 3-Slot Discovery Session</span>
+          <i data-lucide="arrow-right"></i>
+        </button>
+        <a href="#services-showcase" class="btn btn-outline btn-lg">
+          <span>Explore 10 AI Systems</span>
+          <i data-lucide="cpu"></i>
+        </a>
+      </div>
+
+      <!-- Trust Bar -->
+      <div class="hero-metrics-bar glass-panel">
+        <div class="metric-item">
+          <span class="metric-val">$142M+</span>
+          <span class="metric-lbl">Commercial Pipeline Created</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-val">98.4%</span>
+          <span class="metric-lbl">Appointment Show-Up Rate</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-val">&lt; 1.2s</span>
+          <span class="metric-lbl">Lead Ingestion Response Time</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-val">100%</span>
+          <span class="metric-lbl">Performance-Aligned Economics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 10 ENTERPRISE SERVICES ==================== -->
+  <section class="section-padding bg-subtle" id="services-showcase">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag">CAPABILITIES SUITE</div>
+        <h2 class="section-title">Ten Pillars of Enterprise AI Modernization</h2>
+        <p class="section-subtitle">
+          Engineered for high-margin B2B companies, financial institutions, healthcare providers, and high-growth commercial enterprises.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- 01 -->
+        <div class="service-card glass-panel">
+          <div class="service-header">
+            <span class="service-num">01</span>
+            <div class="service-icon"><i data-lucide="calendar-check"></i></div>
+          </div>
+          <h3 class="service-title">Pay-Per-Appointment Acquisition</h3>
+          <p class="service-text">
+            Zero ad-spend risk. High-intent, verified decision-maker consultations injected directly into your reps' calendars. Pricing applies solely to confirmed, qualified appointments.
+          </p>
+          <ul class="service-bullets">
+            <li>Strict written qualification charter</li>
+            <li>Omnichannel show-up protection sequence</li>
+            <li>Complete CRM candidate briefings</li>
+          </ul>
+          <div class="service-footer">
+            <button class="service-link-btn" data-open-scheduler>Book Pilot &rarr;</button>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="service-card glass-panel">
+          <div class="service-header">
+            <span class="service-num">02</span>
+            <div class="service-icon"><i data-lucide="cpu"></i></div>
+          </div>
+          <h3 class="service-title">Custom Enterprise AI Systems</h3>
+          <p class="service-text">
+            Bespoke cognitive software integrated with proprietary corporate data repositories, legacy ERPs, internal document pipelines, and executive intelligence dashboards.
+          </p>
+          <ul class="service-bullets">
+            <li>Automated RFP &amp; contract generation</li>
+            <li>Predictive closing probability scoring</li>
+            <li>Private enterprise LLM fine-tuning</li>
+          </ul>
+          <div class="service-footer">
+            <button class="service-link-btn" data-open-scheduler>Request Architecture Review &rarr;</button>
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="service-card glass-panel">
+          <div class="service-header">
+            <span class="service-num">03</span>
+            <div class="service-icon"><i data-lucide="message-square-code"></i></div>
+          </div>
+          <h3 class="service-title">Conversational AI Agents</h3>
+          <p class="service-text">
+            24/7 autonomous multichannel setters deployed across web chat, WhatsApp Business API, and SMS. Sub-second speed-to-lead that converts midnight traffic into pipeline.
+          </p>
+          <ul class="service-bullets">
+            <li>Zero latency conversational qualification</li>
+            <li>Direct two-way calendar reservation</li>
+            <li>Native HubSpot / Salesforce sync</li>
+          </ul>
+          <div class="service-footer">
+            <button class="service-link-btn" data-open-scheduler>Test Agent Latency &rarr;</button>
+          </div>
+        </div>
+
+        <!-- 04 -->
+        <div class="service-card glass-panel">
+          <div class="service-header">
+            <span class="service-num">04</span>
+            <div class="service-icon"><i data-lucide="phone-call"></i></div>
+          </div>
+          <h3 class="service-title">Enterprise AI Voice Agents</h3>
+          <p class="service-text">
+            Ultra-low latency (under 450ms) natural speech synthesis engines handling high-volume outbound re-activation calls, inbound triage, and schedule confirmation calls.
+          </p>
+          <ul class="service-bullets">
+            <li>Indistinguishable human pacing &amp; tone</li>
+            <li>Intelligent objection handling trees</li>
+            <li>Real-time call transcription &amp; sentiment audit</li>
+          </ul>
+          <div class="service-footer">
+            <button class="service-link-btn" data-open-scheduler>Hear Audio Sample &rarr;</button>
+          </div>
+        </div>
+
+        <!-- 05 -->
+        <div class="service-card glass-panel">
+          <div class="service-header">
+            <span class="service-num">05</span>
+            <div class="service-icon"><i data-lucide="bot"></i></div>
+          </div>
+          <h3 class="service-title">Autonomous AI Appointment Setters</h3>
+          <p class="service-text">
+            Replaces manual business development reps with tireless algorithmic setters who prospect, verify contact accuracy, nurture warm threads, and book meetings.
+          </p>
+          <ul class="service-bullets">
+            <li>Scales to 10,000+ simultaneous conversations</li>
+            <li>Eliminates human SDR turnover &amp; ramp time</li>
+            <li>Continuous prompt optimization</li>
+          </ul>
+          <div class="service-footer">
+            <button class="service-link-btn" data-open-scheduler>Deploy AI Setter &rarr;</button>
+          </div>
+        </div>
+
+        <!-- 06 -->
+        <div class="service-card glass-panel">
+          <div class="service-header">
+            <span class="service-num">06</span>
+            <div class="service-icon"><i data-lucide="workflow"></i></div>
+          </div>
+          <h3 class="service-title">Business Process Automation (BPA)</h3>
+          <p class="service-text">
+            End-to-end autonomous back-office pipelines connecting client onboarding, invoice reconciliation, data extraction, and CRM maintenance with zero manual keystrokes.
+          </p>
+          <ul class="service-bullets">
+            <li>Eliminates 20+ hours of repetitive admin per rep</li>
+            <li>99.98% operational extraction accuracy</li>
+            <li>Resilient webhook and API fallback queues</li>
+          </ul>
+          <div class="service-footer">
+            <button class="service-link-btn" data-open-scheduler>Audit Workflows &rarr;</button>
+          </div>
+        </div>
+
+        <!-- 07 -->
+        <div class="service-card glass-panel">
+          <div class="service-header">
+            <span class="service-num">07</span>
+            <div class="service-icon"><i data-lucide="shield-check"></i></div>
+          </div>
+          <h3 class="service-title">Strategic AI Integration</h3>
+          <p class="service-text">
+            Enterprise roadmap advisory, security compliance audits, and hybrid human-in-the-loop architecture design tailored for regulated industries and enterprise IT.
+          </p>
+          <ul class="service-bullets">
+            <li>SOC-2 and GDPR compliant enclaves</li>
+            <li>Executive capability benchmarking</li>
+            <li>Vendor lock-in risk mitigation</li>
+          </ul>
+          <div class="service-footer">
+            <button class="service-link-btn" data-open-scheduler>Schedule Strategy Brief &rarr;</button>
+          </div>
+        </div>
+
+        <!-- 08 -->
+        <div class="service-card glass-panel">
+          <div class="service-header">
+            <span class="service-num">08</span>
+            <div class="service-icon"><i data-lucide="trending-up"></i></div>
+          </div>
+          <h3 class="service-title">AI-Driven Demand Generation</h3>
+          <p class="service-text">
+            Algorithmic audience modeling and dynamic creative generation that continuously iterates ad creative, landing copy, and conversion funnels based on real-time pipeline feedback.
+          </p>
+          <ul class="service-bullets">
+            <li>Self-optimizing headline and creative variants</li>
+            <li>Audience intent signal triangulation</li>
+            <li>Closed-loop CRM revenue attribution</li>
+          </ul>
+          <div class="service-footer">
+            <button class="service-link-btn" data-open-scheduler>Scale Demand &rarr;</button>
+          </div>
+        </div>
+
+        <!-- 09 -->
+        <div class="service-card glass-panel">
+          <div class="service-header">
+            <span class="service-num">09</span>
+            <div class="service-icon"><i data-lucide="gem"></i></div>
+          </div>
+          <h3 class="service-title">High-Ticket Client Acquisition</h3>
+          <p class="service-text">
+            Bespoke Account-Based Marketing (ABM) pipelines engineered specifically for $50k+ to $1M+ deal values requiring high-touch personalization and multiple stakeholder consensus.
+          </p>
+          <ul class="service-bullets">
+            <li>Targeted C-suite account mapping</li>
+            <li>Hyper-personalized intelligence dossiers</li>
+            <li>Multi-stakeholder consensus tracking</li>
+          </ul>
+          <div class="service-footer">
+            <button class="service-link-btn" data-open-scheduler>Initiate High-Ticket ABM &rarr;</button>
+          </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="service-card glass-panel">
+          <div class="service-header">
+            <span class="service-num">10</span>
+            <div class="service-icon"><i data-lucide="layers"></i></div>
+          </div>
+          <h3 class="service-title">User &amp; Platform Acquisition</h3>
+          <p class="service-text">
+            Rapid scale acquisition architectures for SaaS platforms, fintech solutions, and digital marketplaces targeting exponential user onboarding and product activation.
+          </p>
+          <ul class="service-bullets">
+            <li>Autonomous product-led onboarding paths</li>
+            <li>Frictionless verification and trial activation</li>
+            <li>Cohort retention tracking and predictive churn alerts</li>
+          </ul>
+          <div class="service-footer">
+            <button class="service-link-btn" data-open-scheduler>Scale Platform Users &rarr;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== INTERACTIVE ROI CALCULATOR ==================== -->
+  <section class="section-padding" id="roi-calculator">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag">CAPACITY MODELING</div>
+        <h2 class="section-title">Calculate Your Algorithmic Growth Capacity</h2>
+        <p class="section-subtitle">
+          See the direct pipeline and revenue impact of transitioning from manual prospecting to Vittoris Autonomous Acquisition.
+        </p>
+      </div>
+
+      <div class="calculator-wrapper glass-panel">
+        <div class="calc-grid">
+          <!-- Inputs Column -->
+          <div class="calc-inputs-col">
+            <h3 class="calc-col-title">Current Commercial Economics</h3>
+
+            <!-- Slider 1 -->
+            <div class="calc-input-group">
+              <div class="calc-label-row">
+                <label for="calcLeads">Monthly Inbound / Pipeline Leads</label>
+                <span class="calc-val-badge" id="dispLeads">250</span>
+              </div>
+              <input type="range" id="calcLeads" min="50" max="2500" step="25" value="250" class="calc-range-slider">
+            </div>
+
+            <!-- Slider 2 -->
+            <div class="calc-input-group">
+              <div class="calc-label-row">
+                <label for="calcConversion">Baseline Lead-to-Close Rate (%)</label>
+                <span class="calc-val-badge" id="dispConversion">4.0%</span>
+              </div>
+              <input type="range" id="calcConversion" min="0.5" max="15.0" step="0.5" value="4.0" class="calc-range-slider">
+            </div>
+
+            <!-- Slider 3 -->
+            <div class="calc-input-group">
+              <div class="calc-label-row">
+                <label for="calcDealValue">Average Customer Contract Value (ACV)</label>
+                <span class="calc-val-badge" id="dispDealValue">$25,000</span>
+              </div>
+              <input type="range" id="calcDealValue" min="2000" max="150000" step="1000" value="25000" class="calc-range-slider">
+            </div>
+
+            <!-- Slider 4 -->
+            <div class="calc-input-group">
+              <div class="calc-label-row">
+                <label for="calcReps">Sales Reps / Account Executives</label>
+                <span class="calc-val-badge" id="dispReps">5</span>
+              </div>
+              <input type="range" id="calcReps" min="1" max="30" step="1" value="5" class="calc-range-slider">
+            </div>
+          </div>
+
+          <!-- Outputs Column -->
+          <div class="calc-outputs-col">
+            <h3 class="calc-col-title">Projected Vittoris AI Performance</h3>
+
+            <div class="calc-kpi-card highlight">
+              <span class="calc-kpi-lbl">Projected Monthly Revenue</span>
+              <span class="calc-kpi-num" id="resProjectedRevenue">$412,500</span>
+              <div class="calc-kpi-sub">
+                Baseline: <span id="resBaselineRevenue">$250,000</span>
+              </div>
+            </div>
+
+            <div class="calc-mini-kpis">
+              <div class="calc-kpi-card">
+                <span class="calc-kpi-lbl">Net Lift / Month</span>
+                <span class="calc-kpi-num text-gold" id="resAdditionalRevenue">+$162,500</span>
+              </div>
+              <div class="calc-kpi-card">
+                <span class="calc-kpi-lbl">Rep Time Recovered</span>
+                <span class="calc-kpi-num" id="resHoursSaved">120 hrs/mo</span>
+              </div>
+            </div>
+
+            <div class="calc-footer-action">
+              <div class="roi-multiple-tag">
+                Estimated ROI Multiple: <strong id="resRoiMultiple">9.2x</strong>
+              </div>
+              <button class="btn btn-primary btn-block" data-open-scheduler>
+                <span>Lock In This Capacity</span>
+                <i data-lucide="arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5-PHASE ARCHITECTURAL FRAMEWORK ==================== -->
+  <section class="section-padding bg-subtle" id="framework">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag">METHODOLOGY</div>
+        <h2 class="section-title">The 5-Phase Deployment Architecture</h2>
+        <p class="section-subtitle">
+          How we embed autonomous client acquisition and AI systems into your organization in under 14 business days.
+        </p>
+      </div>
+
+      <div class="framework-timeline">
+        <!-- Phase 1 -->
+        <div class="timeline-step glass-panel">
+          <div class="timeline-step-badge">Phase 01</div>
+          <h3 class="timeline-step-title">Scope Audit &amp; Economics Reverse-Engineering</h3>
+          <p class="timeline-step-desc">
+            We evaluate your average contract values, current conversion bottlenecks, sales cycle velocity, and target buyer persona to establish empirical qualification thresholds.
+          </p>
+        </div>
+
+        <!-- Phase 2 -->
+        <div class="timeline-step glass-panel">
+          <div class="timeline-step-badge">Phase 02</div>
+          <h3 class="timeline-step-title">Written Qualification Charter</h3>
+          <p class="timeline-step-desc">
+            We define the exact parameters for what constitutes a payable meeting: verified C-suite title, minimum budget availability, active project timeframe, and genuine commercial intent.
+          </p>
+        </div>
+
+        <!-- Phase 3 -->
+        <div class="timeline-step glass-panel">
+          <div class="timeline-step-badge">Phase 03</div>
+          <h3 class="timeline-step-title">Multi-Layer AI Screening &amp; Funnel Deployment</h3>
+          <p class="timeline-step-desc">
+            We deploy targeted creative, low-friction qualification bots, and sub-second inbound speed-to-lead setters that verify prospects across multiple verification layers.
+          </p>
+        </div>
+
+        <!-- Phase 4 -->
+        <div class="timeline-step glass-panel">
+          <div class="timeline-step-badge">Phase 04</div>
+          <h3 class="timeline-step-title">Autonomous Calendar Lock &amp; CRM Sync</h3>
+          <p class="timeline-step-desc">
+            Qualified leads book directly into your team's Google or Outlook calendars. All research, audio transcripts, and company dossiers are automatically injected into your CRM.
+          </p>
+        </div>
+
+        <!-- Phase 5 -->
+        <div class="timeline-step glass-panel">
+          <div class="timeline-step-badge">Phase 05</div>
+          <h3 class="timeline-step-title">Omnichannel Show-Up Protection</h3>
+          <p class="timeline-step-desc">
+            Multi-touch WhatsApp, SMS, and email confirmation protocols maintain attendance rates above 90%, eliminating no-shows and maximizing executive closing time.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ENTERPRISE CTA SECTION ==================== -->
+  <section class="section-padding enterprise-cta-section">
+    <div class="container text-center">
+      <div class="cta-inner-panel glass-panel">
+        <span class="section-tag">LIMITED ONBOARDING CAPACITY</span>
+        <h2 class="cta-heading">Ready to Secure Verified Pipeline on Pure Performance?</h2>
+        <p class="cta-sub">
+          We onboard a maximum of 4 enterprise partners per cohort to guarantee pipeline density and executive service attention. Select 3 discovery slots today to request administrative qualification.
+        </p>
+        <div class="cta-buttons">
+          <button class="btn btn-primary btn-lg" data-open-scheduler>
+            <span>Request 3-Slot Discovery Call</span>
+            <i data-lucide="calendar"></i>
+          </button>
+          <a href="contact.html" class="btn btn-outline btn-lg">
+            <span>Submit Scoping Inquiries</span>
+            <i data-lucide="mail"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SITE FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-col">
+        <a href="index.html" class="brand-logo">
+          <span class="brand-mark">V</span>
+          <div class="brand-text">
+            <span class="brand-name">VITTORIS</span>
+            <span class="brand-sub">AI SYSTEMS</span>
+          </div>
+        </a>
+        <p class="footer-brand-desc">
+          High-performance autonomous client acquisition, custom enterprise AI architecture, and conversational intelligence systems for high-margin enterprises.
+        </p>
+        <div class="footer-compliance">
+          <span>Enterprise Grade Security</span> &bull; <span>SOC-2 Architecture</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Overview</a></li>
+          <li><a href="services.html">10 Enterprise Services</a></li>
+          <li><a href="#roi-calculator">ROI &amp; Capacity Engine</a></li>
+          <li><a href="#framework">5-Phase Architecture</a></li>
+          <li><a href="contact.html">Scoping &amp; Inquiries</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Executive Governance</h4>
+        <ul class="footer-links">
+          <li><a href="admin.html">Executive Calendar Desk</a></li>
+          <li><a href="https://calendly.com/tharshit2257/meetings" target="_blank" rel="noopener">Calendly Portal</a></li>
+          <li><a href="contact.html">Legal &amp; Privacy Policy</a></li>
+          <li><a href="contact.html">Terms of Engagement</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Theme &amp; Accessibility</h4>
+        <p class="text-muted" style="font-size: 0.85rem; margin-bottom: 0.75rem;">
+          Tailored contrast modes for extended executive review:
+        </p>
+        <div class="theme-toggle-cluster" role="group">
+          <button class="theme-btn active" data-set-theme="dark">Dark Obsidian</button>
+          <button class="theme-btn" data-set-theme="eye-care">Eye-Protection</button>
+          <button class="theme-btn" data-set-theme="light">Light Alabaster</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; 2026 VITTORIS AI SYSTEMS. All Rights Reserved. Performance-based enterprise acquisition architecture.</p>
+    </div>
+  </footer>
+
+  <!-- ==================== 3-SLOT DISCOVERY CALL MODAL ==================== -->
+  <div class="vittoris-modal-backdrop" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="vittoris-modal-panel glass-panel">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="modal-header-text">
+          <h3 id="modalTitle" class="modal-title">Schedule Executive Discovery Session</h3>
+          <p class="modal-subtitle">Pick 3 preferred time slots. Our executive desk will match and lock your consultation window.</p>
+        </div>
+        <button class="modal-close-btn" data-close-scheduler aria-label="Close modal">&times;</button>
+      </div>
+
+      <!-- Step Indicators -->
+      <div class="modal-step-tracker">
+        <div class="modal-step-indicator active" data-step="1">
+          <span class="step-num">1</span>
+          <span class="step-lbl">Candidate Dossier</span>
+        </div>
+        <div class="modal-step-indicator" data-step="2">
+          <span class="step-num">2</span>
+          <span class="step-lbl">Choose 3 Slots</span>
+        </div>
+        <div class="modal-step-indicator" data-step="3">
+          <span class="step-num">3</span>
+          <span class="step-lbl">Locked Receipt</span>
+        </div>
+      </div>
+
+      <!-- STEP 1: CANDIDATE DOSSIER -->
+      <div class="modal-step-content" id="schedulerStep1">
+        <form id="schedulerFormStep1">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="candName">Full Name *</label>
+              <input type="text" id="candName" required placeholder="e.g. Marcus Vance" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="candEmail">Corporate Email *</label>
+              <input type="email" id="candEmail" required placeholder="marcus@enterprise.com" class="form-input">
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="candCompany">Company Name *</label>
+              <input type="text" id="candCompany" required placeholder="e.g. Apex Holdings" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="candPhone">Direct Phone / WhatsApp *</label>
+              <input type="tel" id="candPhone" required placeholder="+1 (555) 019-2834" class="form-input">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="candRevenue">Current Annual Commercial Volume</label>
+            <select id="candRevenue" class="form-input">
+              <option value="$1M - $5M">$1M - $5M ARR</option>
+              <option value="$5M - $25M" selected>$5M - $25M ARR</option>
+              <option value="$25M - $100M+">$25M - $100M+ ARR</option>
+              <option value="Enterprise / Institutional">Enterprise / Institutional Sponsor</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="candNotes">Primary Commercial Bottleneck / Scope Focus</label>
+            <textarea id="candNotes" rows="2" placeholder="e.g. Seeking autonomous outbound appointment setter or custom sales document intelligence." class="form-input"></textarea>
+          </div>
+
+          <div class="modal-actions">
+            <button type="submit" class="btn btn-primary btn-block">
+              <span>Continue to Slot Selection (Step 2 of 3)</span>
+              <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- STEP 2: CHOOSE 3 SLOTS -->
+      <div class="modal-step-content" id="schedulerStep2" style="display: none;">
+        <div class="slot-selection-guidance">
+          <div class="slot-counter-header">
+            <h4>Select Exactly 3 Distinct Time Windows</h4>
+            <span id="slotCounterText" class="slot-count-badge">0 of 3 Selected</span>
+          </div>
+          <p class="text-muted text-sm">
+            Our company executive team receives your 3 proposed slots and locks in the best fit. Slots that are already booked are automatically disabled.
+          </p>
+        </div>
+
+        <!-- Add Slot Form Controls -->
+        <div class="add-slot-box glass-panel">
+          <div class="form-row-3">
+            <div class="form-group">
+              <label for="slotInputDate">Date</label>
+              <input type="date" id="slotInputDate" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="slotInputTime">Time</label>
+              <input type="text" id="slotInputTime" placeholder="10:00 AM" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="slotInputTz">Timezone</label>
+              <select id="slotInputTz" class="form-input">
+                <option value="EST">EST (New York)</option>
+                <option value="CST">CST (Chicago)</option>
+                <option value="PST">PST (San Francisco)</option>
+                <option value="GMT">GMT (London)</option>
+                <option value="IST">IST (India)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Quick Time Presets -->
+          <div class="time-presets-row">
+            <span class="text-xs text-muted">Quick Pick:</span>
+            <button type="button" class="time-preset-btn" data-time="09:00 AM">09:00 AM</button>
+            <button type="button" class="time-preset-btn" data-time="11:30 AM">11:30 AM</button>
+            <button type="button" class="time-preset-btn" data-time="02:00 PM">02:00 PM</button>
+            <button type="button" class="time-preset-btn" data-time="04:30 PM">04:30 PM</button>
+          </div>
+
+          <button type="button" id="btnAddSlot" class="btn btn-outline btn-sm btn-block" style="margin-top: 0.75rem;">
+            <i data-lucide="plus"></i>
+            <span>Add to My 3 Proposed Slots</span>
+          </button>
+        </div>
+
+        <!-- Container where selected slots render -->
+        <div class="selected-slots-deck" id="selectedSlotsContainer">
+          <!-- Dynamically populated via scheduler.js -->
+        </div>
+
+        <div class="modal-actions-split">
+          <button type="button" id="btnBackToStep1" class="btn btn-outline">
+            &larr; Back to Details
+          </button>
+          <button type="button" id="btnSubmitSlots" class="btn btn-primary btn-disabled" disabled>
+            <span>Lock &amp; Submit 3 Slots</span>
+            <i data-lucide="check-circle"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 3: CONFIRMATION RECEIPT -->
+      <div class="modal-step-content" id="schedulerStep3" style="display: none;">
+        <div class="receipt-success-banner text-center">
+          <div class="receipt-success-icon"><i data-lucide="shield-check"></i></div>
+          <h4 class="receipt-title">Discovery Session Request Logged</h4>
+          <p class="receipt-sub">
+            Your 3 proposed windows have been transmitted to the Vittoris Executive Desk.
+          </p>
+        </div>
+
+        <div class="receipt-details-card glass-panel">
+          <div class="receipt-row">
+            <span class="text-muted">Request Reference ID:</span>
+            <strong class="receipt-id" id="receiptRequestId">VIT-REQ-000000</strong>
+          </div>
+          <div class="receipt-row">
+            <span class="text-muted">Candidate Executive:</span>
+            <strong id="receiptClientName">Marcus Vance</strong>
+          </div>
+          <div class="receipt-divider"></div>
+          <div class="receipt-slots-block">
+            <span class="text-muted" style="display: block; margin-bottom: 0.5rem;">Proposed Consultation Windows:</span>
+            <ul id="receiptSlotsList" class="receipt-slots-ul">
+              <!-- Dynamically populated -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="receipt-portal-prompt text-center">
+          <p class="text-sm text-muted">
+            Need instant direct confirmation or prefer self-scheduling directly on our master calendar?
+          </p>
+          <a href="https://calendly.com/tharshit2257/meetings" id="btnOpenCalendly" target="_blank" rel="noopener" class="btn btn-outline btn-block" style="margin-top: 0.5rem;">
+            <i data-lucide="calendar"></i>
+            <span>Open Calendly Direct Portal</span>
+          </a>
+        </div>
+
+        <div id="receiptFallbackNotice" style="display: none; margin-top: 1rem; padding: 0.75rem; border-radius: 8px; background: rgba(212, 175, 55, 0.1); border: 1px solid var(--gold-500); font-size: 0.82rem;">
+          Email notification backup ready. You can also <a id="receiptMailtoLink" href="#" style="color: var(--gold-400); text-decoration: underline;">click here to dispatch via client mail app</a>.
+        </div>
+
+        <div class="modal-actions" style="margin-top: 1.5rem;">
+          <button type="button" class="btn btn-primary btn-block" data-close-scheduler>
+            <span>Done / Return to Platform</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/emailService.js"></script>
+  <script src="assets/js/scheduler.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

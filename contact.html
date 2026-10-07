@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Scoping &amp; Consultation | VITTORIS AI</title>
+  <meta name="description" content="Submit technical scoping inquiries or schedule an enterprise AI architecture consultation with the VITTORIS AI executive desk.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- EmailJS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+
+  <!-- ==================== SITE HEADER ==================== -->
+  <header class="site-header">
+    <div class="header-inner container">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-mark">V</span>
+        <div class="brand-text">
+          <span class="brand-name">VITTORIS</span>
+          <span class="brand-sub">AI SYSTEMS</span>
+        </div>
+      </a>
+
+      <nav class="primary-nav" id="primaryNav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Overview</a></li>
+          <li><a href="services.html" class="nav-link">10 Enterprise Services</a></li>
+          <li><a href="index.html#roi-calculator" class="nav-link">ROI Engine</a></li>
+          <li><a href="index.html#framework" class="nav-link">Architecture</a></li>
+          <li><a href="contact.html" class="nav-link active">Scoping</a></li>
+          <li><a href="admin.html" class="nav-link nav-link-admin">Executive Desk</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="theme-toggle-cluster" role="group">
+          <button class="theme-btn active" data-set-theme="dark" title="Dark Obsidian Mode"><i data-lucide="moon"></i></button>
+          <button class="theme-btn" data-set-theme="eye-care" title="Eye-Protection Mode"><i data-lucide="eye"></i></button>
+          <button class="theme-btn" data-set-theme="light" title="Light Mode"><i data-lucide="sun"></i></button>
+        </div>
+        <button class="btn btn-primary btn-sm" data-open-scheduler>
+          <span>Schedule 3 Slots</span>
+          <i data-lucide="calendar"></i>
+        </button>
+        <button class="mobile-toggle" id="mobileMenuToggle"><i data-lucide="menu"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== PAGE HERO ==================== -->
+  <section class="page-hero-section">
+    <div class="container text-center">
+      <span class="section-tag">EXECUTIVE INQUIRY</span>
+      <h1 class="page-hero-title">Initiate <span class="text-gold-gradient">Enterprise Scoping</span></h1>
+      <p class="page-hero-desc">
+        Detail your commercial acquisition requirements or technical bottlenecks for immediate evaluation by our senior engineering leadership.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT / SCOPING MAIN ==================== -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="contact-layout-grid">
+
+        <!-- Form Column -->
+        <div class="contact-form-panel glass-panel">
+          <div class="panel-header">
+            <h3>Confidential Scoping Dossier</h3>
+            <p class="text-muted text-sm">Protected under mutual standard enterprise non-disclosure.</p>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="contactName">Full Name *</label>
+                <input type="text" id="contactName" required placeholder="Marcus Vance" class="form-input">
+              </div>
+              <div class="form-group">
+                <label for="contactEmail">Corporate Work Email *</label>
+                <input type="email" id="contactEmail" required placeholder="marcus@enterprise.com" class="form-input">
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="contactCompany">Company / Organization *</label>
+                <input type="text" id="contactCompany" required placeholder="Apex Holdings LLC" class="form-input">
+              </div>
+              <div class="form-group">
+                <label for="contactPhone">Direct Phone *</label>
+                <input type="tel" id="contactPhone" required placeholder="+1 (555) 019-2834" class="form-input">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contactService">Primary Service Engagement Focus *</label>
+              <select id="contactService" class="form-input" required>
+                <option value="01. Pay-Per-Appointment Client Acquisition">01. Pay-Per-Appointment Acquisition (Zero Risk)</option>
+                <option value="02. Custom Enterprise AI Systems">02. Custom Enterprise AI Systems (Document / ERP)</option>
+                <option value="03. Conversational AI Agents & Inbound Setters">03. Conversational AI Agents &amp; Inbound Setters</option>
+                <option value="04. Enterprise AI Voice Agents">04. Enterprise AI Voice Agents (Telephony)</option>
+                <option value="05. Autonomous AI Appointment Setters">05. Autonomous AI Appointment Setters</option>
+                <option value="06. Business Process Automation (BPA)">06. Business Process Automation (BPA)</option>
+                <option value="07. Strategic AI Integration">07. Strategic AI Integration &amp; Compliance</option>
+                <option value="08. AI-Driven Demand Generation">08. AI-Driven Demand Generation</option>
+                <option value="09. High-Ticket ABM Acquisition">09. High-Ticket ABM Acquisition ($50k+ - $1M+ ACV)</option>
+                <option value="10. User & Platform Acquisition">10. User &amp; Platform Acquisition (SaaS / Fintech)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">Project Scope, Current Volume &amp; Target Outcomes *</label>
+              <textarea id="contactMessage" rows="5" required placeholder="Please outline your current sales volume, average customer contract value, and target monthly appointment volume..." class="form-input"></textarea>
+            </div>
+
+            <div id="contactFormStatus" style="display: none; margin-bottom: 1rem; padding: 0.85rem; border-radius: 8px;"></div>
+
+            <button type="submit" id="btnSubmitContact" class="btn btn-primary btn-lg btn-block">
+              <span>Transmit Scoping Dossier</span>
+              <i data-lucide="send"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Sidebar Details Column -->
+        <div class="contact-info-panel">
+          
+          <!-- Direct Discovery Call Box -->
+          <div class="info-card glass-panel highlight-gold">
+            <div class="info-card-icon"><i data-lucide="calendar"></i></div>
+            <h4>Prefer Direct Appointment Scheduling?</h4>
+            <p class="text-sm text-muted">
+              Select 3 proposed times directly on our executive calendar. Pricing applies strictly to qualified discovery meetings.
+            </p>
+            <button class="btn btn-primary btn-block btn-sm" data-open-scheduler style="margin-top: 1rem;">
+              <span>Schedule 3 Slots Now</span>
+              <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+
+          <!-- Instant Calendly Box -->
+          <div class="info-card glass-panel">
+            <div class="info-card-icon"><i data-lucide="external-link"></i></div>
+            <h4>Calendly Master Portal</h4>
+            <p class="text-sm text-muted">
+              Direct access for existing institutional clients and urgent partner briefings.
+            </p>
+            <a href="https://calendly.com/tharshit2257/meetings" target="_blank" rel="noopener" class="btn btn-outline btn-block btn-sm" style="margin-top: 1rem;">
+              <span>Open Calendly Portal</span>
+              <i data-lucide="calendar-check"></i>
+            </a>
+          </div>
+
+          <!-- Direct Inquiries -->
+          <div class="info-card glass-panel">
+            <h4>Executive Communications</h4>
+            <ul class="contact-details-list">
+              <li>
+                <i data-lucide="mail"></i>
+                <div>
+                  <strong>Company Inquiries:</strong><br>
+                  <a href="mailto:company@vittoris.com">company@vittoris.com</a>
+                </div>
+              </li>
+              <li>
+                <i data-lucide="user-check"></i>
+                <div>
+                  <strong>Managing Director:</strong><br>
+                  <a href="mailto:tharshit2257@gmail.com">tharshit2257@gmail.com</a>
+                </div>
+              </li>
+              <li>
+                <i data-lucide="clock"></i>
+                <div>
+                  <strong>Response SLA:</strong><br>
+                  <span>Under 2 hours during market hours</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SITE FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-col">
+        <a href="index.html" class="brand-logo">
+          <span class="brand-mark">V</span>
+          <div class="brand-text">
+            <span class="brand-name">VITTORIS</span>
+            <span class="brand-sub">AI SYSTEMS</span>
+          </div>
+        </a>
+        <p class="footer-brand-desc">
+          High-performance autonomous client acquisition and custom enterprise AI systems.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Overview</a></li>
+          <li><a href="services.html">10 Enterprise Services</a></li>
+          <li><a href="index.html#roi-calculator">ROI Engine</a></li>
+          <li><a href="contact.html">Scoping &amp; Inquiries</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Executive Governance</h4>
+        <ul class="footer-links">
+          <li><a href="admin.html">Executive Calendar Desk</a></li>
+          <li><a href="https://calendly.com/tharshit2257/meetings" target="_blank" rel="noopener">Calendly Portal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Theme Selection</h4>
+        <div class="theme-toggle-cluster" role="group">
+          <button class="theme-btn active" data-set-theme="dark">Dark</button>
+          <button class="theme-btn" data-set-theme="eye-care">Eye-Care</button>
+          <button class="theme-btn" data-set-theme="light">Light</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; 2026 VITTORIS AI SYSTEMS. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ==================== 3-SLOT DISCOVERY CALL MODAL ==================== -->
+  <div class="vittoris-modal-backdrop" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="vittoris-modal-panel glass-panel">
+      <div class="modal-header">
+        <div class="modal-header-text">
+          <h3 id="modalTitle" class="modal-title">Schedule Executive Discovery Session</h3>
+          <p class="modal-subtitle">Pick 3 preferred time slots. Our executive desk will match and lock your consultation window.</p>
+        </div>
+        <button class="modal-close-btn" data-close-scheduler aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-step-tracker">
+        <div class="modal-step-indicator active" data-step="1">
+          <span class="step-num">1</span>
+          <span class="step-lbl">Candidate Dossier</span>
+        </div>
+        <div class="modal-step-indicator" data-step="2">
+          <span class="step-num">2</span>
+          <span class="step-lbl">Choose 3 Slots</span>
+        </div>
+        <div class="modal-step-indicator" data-step="3">
+          <span class="step-num">3</span>
+          <span class="step-lbl">Locked Receipt</span>
+        </div>
+      </div>
+
+      <div class="modal-step-content" id="schedulerStep1">
+        <form id="schedulerFormStep1">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="candName">Full Name *</label>
+              <input type="text" id="candName" required placeholder="e.g. Marcus Vance" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="candEmail">Corporate Email *</label>
+              <input type="email" id="candEmail" required placeholder="marcus@enterprise.com" class="form-input">
+            </div>
+          </div>
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="candCompany">Company Name *</label>
+              <input type="text" id="candCompany" required placeholder="e.g. Apex Holdings" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="candPhone">Direct Phone / WhatsApp *</label>
+              <input type="tel" id="candPhone" required placeholder="+1 (555) 019-2834" class="form-input">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="candRevenue">Current Commercial ARR</label>
+            <select id="candRevenue" class="form-input">
+              <option value="$1M - $5M">$1M - $5M ARR</option>
+              <option value="$5M - $25M" selected>$5M - $25M ARR</option>
+              <option value="$25M - $100M+">$25M - $100M+ ARR</option>
+              <option value="Enterprise Sponsor">Enterprise Sponsor</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="candNotes">Primary Scope Focus</label>
+            <textarea id="candNotes" rows="2" placeholder="e.g. Seeking autonomous acquisition or bespoke enterprise LLM." class="form-input"></textarea>
+          </div>
+          <div class="modal-actions">
+            <button type="submit" class="btn btn-primary btn-block">
+              <span>Continue to Slot Selection (Step 2 of 3)</span>
+              <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-step-content" id="schedulerStep2" style="display: none;">
+        <div class="slot-selection-guidance">
+          <div class="slot-counter-header">
+            <h4>Select Exactly 3 Distinct Time Windows</h4>
+            <span id="slotCounterText" class="slot-count-badge">0 of 3 Selected</span>
+          </div>
+          <p class="text-muted text-sm">
+            Our company executive team receives your 3 proposed slots and locks in the best fit.
+          </p>
+        </div>
+
+        <div class="add-slot-box glass-panel">
+          <div class="form-row-3">
+            <div class="form-group">
+              <label for="slotInputDate">Date</label>
+              <input type="date" id="slotInputDate" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="slotInputTime">Time</label>
+              <input type="text" id="slotInputTime" placeholder="10:00 AM" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="slotInputTz">Timezone</label>
+              <select id="slotInputTz" class="form-input">
+                <option value="EST">EST (New York)</option>
+                <option value="CST">CST (Chicago)</option>
+                <option value="PST">PST (San Francisco)</option>
+                <option value="GMT">GMT (London)</option>
+                <option value="IST">IST (India)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="time-presets-row">
+            <span class="text-xs text-muted">Quick Pick:</span>
+            <button type="button" class="time-preset-btn" data-time="09:00 AM">09:00 AM</button>
+            <button type="button" class="time-preset-btn" data-time="11:30 AM">11:30 AM</button>
+            <button type="button" class="time-preset-btn" data-time="02:00 PM">02:00 PM</button>
+            <button type="button" class="time-preset-btn" data-time="04:30 PM">04:30 PM</button>
+          </div>
+
+          <button type="button" id="btnAddSlot" class="btn btn-outline btn-sm btn-block" style="margin-top: 0.75rem;">
+            <i data-lucide="plus"></i>
+            <span>Add to My 3 Proposed Slots</span>
+          </button>
+        </div>
+
+        <div class="selected-slots-deck" id="selectedSlotsContainer"></div>
+
+        <div class="modal-actions-split">
+          <button type="button" id="btnBackToStep1" class="btn btn-outline">&larr; Back to Details</button>
+          <button type="button" id="btnSubmitSlots" class="btn btn-primary btn-disabled" disabled>
+            <span>Lock &amp; Submit 3 Slots</span>
+            <i data-lucide="check-circle"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-step-content" id="schedulerStep3" style="display: none;">
+        <div class="receipt-success-banner text-center">
+          <div class="receipt-success-icon"><i data-lucide="shield-check"></i></div>
+          <h4 class="receipt-title">Discovery Session Request Logged</h4>
+          <p class="receipt-sub">Your 3 proposed windows have been transmitted to the Vittoris Executive Desk.</p>
+        </div>
+
+        <div class="receipt-details-card glass-panel">
+          <div class="receipt-row">
+            <span class="text-muted">Request Reference ID:</span>
+            <strong class="receipt-id" id="receiptRequestId">VIT-REQ-000000</strong>
+          </div>
+          <div class="receipt-row">
+            <span class="text-muted">Candidate Executive:</span>
+            <strong id="receiptClientName">Candidate Name</strong>
+          </div>
+          <div class="receipt-divider"></div>
+          <div class="receipt-slots-block">
+            <span class="text-muted" style="display: block; margin-bottom: 0.5rem;">Proposed Consultation Windows:</span>
+            <ul id="receiptSlotsList" class="receipt-slots-ul"></ul>
+          </div>
+        </div>
+
+        <div class="receipt-portal-prompt text-center">
+          <a href="https://calendly.com/tharshit2257/meetings" id="btnOpenCalendly" target="_blank" rel="noopener" class="btn btn-outline btn-block" style="margin-top: 0.5rem;">
+            <i data-lucide="calendar"></i>
+            <span>Open Calendly Direct Portal</span>
+          </a>
+        </div>
+
+        <div class="modal-actions" style="margin-top: 1.5rem;">
+          <button type="button" class="btn btn-primary btn-block" data-close-scheduler>
+            <span>Done / Return to Platform</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/emailService.js"></script>
+  <script src="assets/js/scheduler.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <!-- Contact Form Handling Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const contactForm = document.getElementById('contactForm');
+      const statusBox = document.getElementById('contactFormStatus');
+      const submitBtn = document.getElementById('btnSubmitContact');
+
+      if (contactForm) {
+        contactForm.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const origText = submitBtn.innerHTML;
+          submitBtn.disabled = true;
+          submitBtn.innerHTML = '<span>Transmitting Dossier...</span>';
+
+          const data = {
+            name: document.getElementById('contactName').value.trim(),
+            email: document.getElementById('contactEmail').value.trim(),
+            company: document.getElementById('contactCompany').value.trim(),
+            phone: document.getElementById('contactPhone').value.trim(),
+            service: document.getElementById('contactService').value,
+            message: document.getElementById('contactMessage').value.trim()
+          };
+
+          try {
+            let res = { success: false };
+            if (window.VittorisEmail && typeof window.VittorisEmail.sendContactFormEmail === 'function') {
+              res = await window.VittorisEmail.sendContactFormEmail(data);
+            }
+
+            statusBox.style.display = 'block';
+            if (res.success) {
+              statusBox.style.background = 'rgba(16, 185, 129, 0.15)';
+              statusBox.style.border = '1px solid #10b981';
+              statusBox.style.color = '#34d399';
+              statusBox.innerHTML = `<strong>Dossier Received:</strong> Thank you, ${data.name}. Our executive team will review your objectives and respond within 2 hours.`;
+              contactForm.reset();
+            } else {
+              statusBox.style.background = 'rgba(212, 175, 55, 0.15)';
+              statusBox.style.border = '1px solid var(--gold-500)';
+              statusBox.style.color = 'var(--gold-400)';
+              statusBox.innerHTML = `
+                <strong>Inquiry Logged:</strong> To ensure immediate routing to executive leadership, 
+                <a href="${res.mailtoFallback || '#'}" style="color: #fff; text-decoration: underline; font-weight: 600;">click here to dispatch via your default email client</a> or schedule directly via the 3-slot booking modal.
+              `;
+            }
+          } catch (err) {
+            console.error('Contact error:', err);
+            statusBox.style.display = 'block';
+            statusBox.style.background = 'rgba(239, 68, 68, 0.15)';
+            statusBox.style.border = '1px solid #ef4444';
+            statusBox.style.color = '#f87171';
+            statusBox.innerHTML = `Notice: Please send your scoping requirements directly to <a href="mailto:tharshit2257@gmail.com" style="color: #fff; text-decoration: underline;">tharshit2257@gmail.com</a>.`;
+          } finally {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = origText;
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>
