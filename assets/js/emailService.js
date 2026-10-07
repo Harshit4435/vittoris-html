@@ -44,8 +44,8 @@ function formatSlotDisplay(slot) {
  * Send 3-Slot Discovery Call Request to Owner and Confirmation to Client
  */
 async function sendMeetingRequestEmails(meetingData) {
-  const currentOrigin = window.location.origin || window.location.protocol + '//' + window.location.host;
-  const adminUrl = `${currentOrigin}/admin.html`;
+  const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+  const adminUrl = `${window.location.origin}${basePath}admin.html`;
   
   const approveSlot1Link = `${adminUrl}?action=approve&reqId=${encodeURIComponent(meetingData.id)}&slot=1`;
   const approveSlot2Link = `${adminUrl}?action=approve&reqId=${encodeURIComponent(meetingData.id)}&slot=2`;
