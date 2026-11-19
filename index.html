@@ -21,9 +21,120 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Calendly Integration Assets -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    <script type="module" crossorigin src="/vittoris-html/assets/index-lyx9YSlx.js"></script>
-    <link rel="stylesheet" crossorigin href="/vittoris-html/assets/index-C2AM_40-.css">
+    <!-- Production Universal Asset Loader (Hostinger Root & Subdirectory Support) -->
+    <script>
+      (function() {
+        var base = window.location.pathname.startsWith('/vittoris-html') ? '/vittoris-html' : '';
+        var css = document.createElement('link');
+        css.rel = 'stylesheet';
+        css.crossOrigin = '';
+        css.href = base + '/assets/index-C2AM_40-.css';
+        document.head.appendChild(css);
+
+        var js = document.createElement('script');
+        js.type = 'module';
+        js.crossOrigin = '';
+        js.src = base + '/assets/index-lyx9YSlx.js';
+        document.head.appendChild(js);
+      })();
+    </script>
+    <noscript>
+      <link rel="stylesheet" href="assets/index-C2AM_40-.css">
+    </noscript>
+    <style>
+      /* Prevent horizontal overflow across the entire application */
+      html, body, #root {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        box-sizing: border-box !important;
+      }
+
+      /* Overall app pages: expand container max-width and minimize left/right side margins */
+      .max-w-7xl,
+      .section-container,
+      main > div,
+      section > div.max-w-7xl,
+      header .max-w-7xl {
+        max-width: 1650px !important;
+        width: 100% !important;
+      }
+
+      /* Keep side margins minimal and balanced */
+      .max-w-7xl,
+      .section-container,
+      header .max-w-\[1700px\],
+      header > div {
+        padding-left: clamp(1rem, 2.5vw, 2.5rem) !important;
+        padding-right: clamp(1rem, 2.5vw, 2.5rem) !important;
+        box-sizing: border-box !important;
+      }
+
+      /* Top-level navbar row items: keep single line without wrapping */
+      header nav > a,
+      header nav > div > a,
+      header nav > div > button,
+      header .nav-actions button,
+      header .nav-actions a,
+      header button[title*="Current:"],
+      header .site-header nav > a,
+      header .site-header .btn-gold {
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
+      }
+
+      /* Big, Spacious Services Menu Box */
+      header [role="menu"],
+      header .dropdown-menu,
+      header nav div[class*="absolute"],
+      header nav div[class*="absolute"] * {
+        white-space: normal;
+        box-sizing: border-box;
+      }
+
+      header nav div[class*="absolute"] {
+        width: 1080px !important;
+        max-width: min(1080px, calc(100vw - 2.5rem)) !important;
+        box-sizing: border-box !important;
+      }
+
+      @media (min-width: 1024px) {
+        header nav div[class*="absolute"] {
+          left: -120px !important;
+        }
+      }
+
+      @media (min-width: 1280px) {
+        header nav div[class*="absolute"] {
+          left: -160px !important;
+        }
+      }
+
+      @media (min-width: 1536px) {
+        header nav div[class*="absolute"] {
+          left: -200px !important;
+        }
+      }
+
+      header nav div[class*="absolute"] a {
+        display: block !important;
+        white-space: normal !important;
+        flex-shrink: 1 !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        overflow: hidden !important;
+      }
+
+      header nav div[class*="absolute"] .truncate,
+      header nav div[class*="absolute"] span[class*="truncate"],
+      header nav div[class*="absolute"] p[class*="truncate"] {
+        display: block !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+      }
+    </style>
   </head>
   <body class="overflow-x-hidden antialiased selection:bg-[#C7A86D]/30 selection:text-[#E5C788] transition-colors duration-500">
     <div id="root"></div>

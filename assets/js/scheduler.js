@@ -347,7 +347,7 @@ class VittorisScheduler {
     }
 
     if (this.calendlyBtnEl) {
-      this.calendlyBtnEl.href = window.VittorisEmail ? window.VittorisEmail.config.CALENDLY_URL : 'https://calendly.com/tharshit2257/meetings';
+      this.calendlyBtnEl.href = window.VittorisEmail ? window.VittorisEmail.config.CALENDLY_URL : 'https://calendly.com/vittoris/30min';
     }
 
     // Show fallback notice if email failed

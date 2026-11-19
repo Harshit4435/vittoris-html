@@ -1,0 +1,16 @@
+{
+  "name": "vittoris-html",
+  "version": "1.0.0",
+  "description": "VITTORIS AI - Enterprise Client Acquisition Platform",
+  "scripts": {
+    "build": "python3 build.py"
+  },
+  "keywords": [
+    "vittoris",
+    "ai",
+    "hostinger",
+    "deployment"
+  ],
+  "author": "VITTORIS AI SYSTEMS",
+  "license": "ISC"
+}

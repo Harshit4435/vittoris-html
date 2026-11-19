@@ -9,7 +9,7 @@ const VITTORIS_EMAIL_CONFIG = {
   PUBLIC_KEY: 'd7kefRJyGh4blQyYw',
   OWNER_EMAIL: 'tharshit2257@gmail.com',
   COMPANY_EMAIL: 'company@vittoris.com',
-  CALENDLY_URL: 'https://calendly.com/tharshit2257/meetings'
+  CALENDLY_URL: 'https://calendly.com/vittoris/30min'
 };
 
 // Initialize EmailJS Browser SDK

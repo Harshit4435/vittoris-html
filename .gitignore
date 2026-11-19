@@ -1,0 +1,9 @@
+*.mp4
+*.zip
+.DS_Store
+inbound-call-ai-agent
+interview ready Ai
+interview-ready-ai
+ai-call-agent-design
+__pycache__/
+dist/
