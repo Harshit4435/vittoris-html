@@ -9,6 +9,7 @@ const VITTORIS_EMAIL_CONFIG = {
   PUBLIC_KEY: 'd7kefRJyGh4blQyYw',
   OWNER_EMAIL: 'company@vittoris.com',
   COMPANY_EMAIL: 'company@vittoris.com',
+  SECONDARY_EMAIL: 'company@vittoris.info',
   CALENDLY_URL: 'https://calendly.com/vittoris/30min'
 };
 

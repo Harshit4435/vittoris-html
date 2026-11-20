@@ -94,10 +94,8 @@ All integrations are pre-configured in `assets/js/emailService.js`:
 - **EmailJS Service ID**: `service_iu5eb5a`
 - **EmailJS Template ID**: `template_7u7tez3`
 - **EmailJS Public Key**: `d7kefRJyGh4blQyYw`
-- **Owner Email**: `tharshit2257@gmail.com`
 - **Company Email**: `company@vittoris.com`
-- **Company Email**: `company@vittoris.com`
-- **Owner / Executive Email**: `company@vittoris.com`
+- **Secondary Email**: `company@vittoris.info`
 - **Calendly Portal**: `https://calendly.com/vittoris/30min`
 
 ---

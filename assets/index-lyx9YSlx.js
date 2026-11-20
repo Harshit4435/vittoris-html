@@ -16505,7 +16505,7 @@ var Fn = (...e) =>
     email: `company@vittoris.com`,
     primaryEmail: `company@vittoris.com`,
     ownerEmail: `company@vittoris.com`,
-    secondaryEmail: `company@vittoris.com`,
+    secondaryEmail: `company@vittoris.info`,
     calendlyUrl: `https://calendly.com/vittoris/30min`,
     defaultTimezone: `America/New_York`,
     timezoneLabel: `EST (US Eastern Time)`,
