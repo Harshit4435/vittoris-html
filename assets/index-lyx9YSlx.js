@@ -16923,7 +16923,7 @@ var Fn = (...e) =>
                             }),
                             (0, V.jsx)(`span`, {
                               className: `text-slate-400`,
-                              children: `Secondary:`,
+                              children: `Owner Email:`,
                             }),
                             (0, V.jsx)(`a`, {
                               href: `mailto:${Fr.ownerEmail}`,
@@ -27662,7 +27662,7 @@ ${e.projectDescription || `N/A`}
 ---
 Calendly Portal: ${Fr.calendlyUrl}
 Company Email: ${Fr.companyEmail}
-Secondary Email: ${Fr.ownerEmail}
+Owner Email: ${Fr.ownerEmail}
 `,
     r = `mailto:${Fr.companyEmail}?cc=${Fr.ownerEmail}&subject=${encodeURIComponent(t)}&body=${encodeURIComponent(n)}`;
   if (!(Ir.serviceId && Ir.publicKey && Ir.publicKey !== `DEMO_PUBLIC_KEY`))
@@ -28262,7 +28262,7 @@ var Kf = ({ onOpenConsultation: e }) => {
                               children: [
                                 (0, V.jsx)(`div`, {
                                   className: `text-[10px] text-stone-500 uppercase tracking-wider`,
-                                  children: `Secondary Email:`,
+                                  children: `Owner Email:`,
                                 }),
                                 (0, V.jsx)(`a`, {
                                   href: `mailto:${Fr.ownerEmail}`,
