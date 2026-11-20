@@ -16504,7 +16504,7 @@ var Fn = (...e) =>
     companyEmail: `company@vittoris.com`,
     email: `company@vittoris.com`,
     primaryEmail: `company@vittoris.com`,
-    ownerEmail: `company@vittoris.com`,
+    ownerEmail: `company@vittoris.info`,
     secondaryEmail: `company@vittoris.info`,
     calendlyUrl: `https://calendly.com/vittoris/30min`,
     defaultTimezone: `America/New_York`,
@@ -16923,7 +16923,7 @@ var Fn = (...e) =>
                             }),
                             (0, V.jsx)(`span`, {
                               className: `text-slate-400`,
-                              children: `Owner:`,
+                              children: `Secondary:`,
                             }),
                             (0, V.jsx)(`a`, {
                               href: `mailto:${Fr.ownerEmail}`,
@@ -27662,7 +27662,7 @@ ${e.projectDescription || `N/A`}
 ---
 Calendly Portal: ${Fr.calendlyUrl}
 Company Email: ${Fr.companyEmail}
-Owner Email: ${Fr.ownerEmail}
+Secondary Email: ${Fr.ownerEmail}
 `,
     r = `mailto:${Fr.companyEmail}?cc=${Fr.ownerEmail}&subject=${encodeURIComponent(t)}&body=${encodeURIComponent(n)}`;
   if (!(Ir.serviceId && Ir.publicKey && Ir.publicKey !== `DEMO_PUBLIC_KEY`))
@@ -28262,7 +28262,7 @@ var Kf = ({ onOpenConsultation: e }) => {
                               children: [
                                 (0, V.jsx)(`div`, {
                                   className: `text-[10px] text-stone-500 uppercase tracking-wider`,
-                                  children: `Owner Email:`,
+                                  children: `Secondary Email:`,
                                 }),
                                 (0, V.jsx)(`a`, {
                                   href: `mailto:${Fr.ownerEmail}`,
