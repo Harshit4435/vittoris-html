@@ -97,7 +97,7 @@ All integrations are pre-configured in `assets/js/emailService.js`:
 - **Owner Email**: `tharshit2257@gmail.com`
 - **Company Email**: `company@vittoris.com`
 - **Company Email**: `company@vittoris.com`
-- **Owner Email**: `company@vittoris.info`
+- **Owner / Executive Email**: `company@vittoris.com`
 - **Calendly Portal**: `https://calendly.com/vittoris/30min`
 
 ---

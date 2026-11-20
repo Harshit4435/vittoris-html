@@ -16504,7 +16504,7 @@ var Fn = (...e) =>
     companyEmail: `company@vittoris.com`,
     email: `company@vittoris.com`,
     primaryEmail: `company@vittoris.com`,
-    ownerEmail: `company@vittoris.info`,
+    ownerEmail: `company@vittoris.com`,
     secondaryEmail: `company@vittoris.com`,
     calendlyUrl: `https://calendly.com/vittoris/30min`,
     defaultTimezone: `America/New_York`,
@@ -16816,7 +16816,7 @@ var Fn = (...e) =>
                   }),
                   (0, V.jsx)(`div`, {
                     className: `text-center text-[10px] tracking-widest uppercase text-slate-500`,
-                    children: `Vittoris AI Systems • company@vittoris.info`,
+                    children: `Vittoris AI Systems • company@vittoris.com`,
                   }),
                 ],
               }),

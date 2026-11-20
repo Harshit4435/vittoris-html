@@ -7,7 +7,7 @@ const VITTORIS_EMAIL_CONFIG = {
   SERVICE_ID: 'service_iu5eb5a',
   TEMPLATE_ID: 'template_7u7tez3',
   PUBLIC_KEY: 'd7kefRJyGh4blQyYw',
-  OWNER_EMAIL: 'company@vittoris.info',
+  OWNER_EMAIL: 'company@vittoris.com',
   COMPANY_EMAIL: 'company@vittoris.com',
   CALENDLY_URL: 'https://calendly.com/vittoris/30min'
 };

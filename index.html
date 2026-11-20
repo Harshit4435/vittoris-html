@@ -25,16 +25,17 @@
     <script>
       (function() {
         var base = window.location.pathname.startsWith('/vittoris-html') ? '/vittoris-html' : '';
+        var v = '?v=' + new Date().getTime();
         var css = document.createElement('link');
         css.rel = 'stylesheet';
         css.crossOrigin = '';
-        css.href = base + '/assets/index-C2AM_40-.css';
+        css.href = base + '/assets/index-C2AM_40-.css' + v;
         document.head.appendChild(css);
 
         var js = document.createElement('script');
         js.type = 'module';
         js.crossOrigin = '';
-        js.src = base + '/assets/index-lyx9YSlx.js';
+        js.src = base + '/assets/index-lyx9YSlx.js' + v;
         document.head.appendChild(js);
       })();
     </script>
